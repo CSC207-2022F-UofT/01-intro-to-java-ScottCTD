@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Task 1",
+      "setup": "",
+      "run": "gradle test --tests BasicsTest.testTask1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task 2",
+      "setup": "",
+      "run": "gradle test --tests BasicsTest.testTask2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task 3",
+      "setup": "",
+      "run": "gradle test --tests BasicsTest.testTask3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task 4",
+      "setup": "",
+      "run": "gradle test --tests BasicsTest.testTask4",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task 5",
+      "setup": "",
+      "run": "gradle test --tests BasicsTest.testTask5",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
