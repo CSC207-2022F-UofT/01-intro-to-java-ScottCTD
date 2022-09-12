@@ -43,8 +43,7 @@ public class Basics {
         /* TODO (Task 1): Write a line of code below that prints the string
          *                Hello World!
          */
-
-
+        System.out.println("Hello World!");
 
         /* 4. In Python, we could declare variables using a simple assignment
          *    statement. For example:
@@ -62,8 +61,7 @@ public class Basics {
          * TODO (Task 2): Create a variable named my_variable and assign it the
          *                value 100.
          */
-
-
+        int my_variable = 100;
 
         /* Do not remove the line below: if you did task 2 correctly, then
          * you should see the message "my_variable's value is 100" if you run
@@ -99,7 +97,9 @@ public class Basics {
          * Current count: 1
          * Current count: 0
          */
-
+        for (int i = 10; i >= 0; i--) {
+            System.out.println("Current count: " + i);
+        }
 
     }
 
@@ -143,6 +143,10 @@ public class Basics {
         StringBuilder ret = new StringBuilder();
 
         // Fill in the rest of the body here
+        String[] temp = to_split.split(" ");
+        for (String s : temp) {
+            ret.append(s.charAt(0));
+        }
 
         return ret.toString();
     }
@@ -170,6 +174,12 @@ public class Basics {
          *                You can index into arrays as we do in Python
          *                (e.g. arr[i] gives you the item at index i).
          */
+        if (arr.length <= 1) {
+            return 0;
+        }
+        for (int i = 1; i < arr.length; i += 2) {
+            current_sum += arr[i];
+        }
 
         return current_sum;
     }
